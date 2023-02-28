@@ -1,0 +1,57 @@
+.chat {
+  /* прижатие блока */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* прижатие блока */
+}
+
+.dialogues-container {
+  overflow: scroll;
+  /* прижатие блока */
+  flex: 1 1 auto;
+  /* прижатие блока */
+}
+
+.chat__message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: 100%;
+}
+
+.chat__dialogues-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.chat_dialogue-item {
+  display: contents;
+}
+
+.chat_dialogue-link {
+  display: flex;
+  column-gap: 10px;
+
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+.chat__dialogue-image {
+  width: 70px;
+  height: 70px;
+}
+
+.chat__dialogue-name {
+  padding: 5px 0;
+  font-size: 20px;
+  color: black;
+}
+
+.chat__dialogue-message {
+  font-size: 15px;
+  color: black;
+}

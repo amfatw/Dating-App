@@ -1,0 +1,23 @@
+.pages-links-list {
+  display: flex;
+}
+
+.page-links-list__item {
+  display: contents;
+}
+
+.page-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  
+  border: 1px solid black;
+  background-color: lightgray;
+}
+
+
+.page-link--active {
+  background-color: gray;
+}

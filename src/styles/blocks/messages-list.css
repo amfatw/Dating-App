@@ -1,0 +1,41 @@
+.messages-list__no-messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.messages-list-container {
+  flex: 1 1 auto;
+
+  overflow-y: scroll;
+}
+.messages-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  row-gap: 10px;
+  height: 100%;
+}
+
+.messages-list__item {
+  display: contents;
+}
+
+.messages-list__message {
+  padding: 5px;
+
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.messages-list__message--you {
+  background-color: lightgreen;
+  align-self: flex-end;
+}
+
+.messages-list__message--interlocutor {
+  background-color: lightblue;
+  align-self: flex-start;
+}

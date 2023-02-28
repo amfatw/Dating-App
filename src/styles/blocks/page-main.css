@@ -1,0 +1,29 @@
+.page-main {
+  /* min-width: 360px; */
+  width: 360px;
+  margin: 0 auto;
+
+  font-size: 16px;
+
+  /* для прижатия нижнего блока */
+  height: 100%;
+  /* для прижатия нижнего блока */
+}
+
+/* @media (min-width: 480px) {
+  .page-main {
+    width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-main {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .page-main {
+    width: 1366px;
+  }
+} */

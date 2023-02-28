@@ -1,0 +1,83 @@
+.settings {
+  /* для прижатия блока */
+  display: flex;
+  flex-direction: column;
+  min-height: 100%
+  /* для прижатия блока */
+}
+
+.settings-form {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 25px;
+
+  /* для прижатия блока */
+  flex: 1 1 auto;
+  /* для прижатия блока */
+}
+
+.settings-form__fieldset {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+
+  border: 0;
+}
+
+.settings-form__legend {
+  margin-bottom: 10px;
+
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.settings-form__input-container {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.settings-form__radio-container {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.setting-form__radio-list {
+  display: flex;
+  column-gap: 10px;
+}
+
+.settings-form__input {
+  padding: 2px 5px;
+}
+
+.settings-form__textarea-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+
+.settings-form__age-container {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.settings-form__input--number {
+  width: 40px;
+
+  text-align: center
+}
+
+.settings__reset-button {
+  width: 50px;
+}
+
+.settings__reset-button:hover,
+.settings__reset-button:focus {
+  background-color: red;
+}

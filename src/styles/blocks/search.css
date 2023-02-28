@@ -1,0 +1,40 @@
+.search {
+  /* для прижатия блока */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* для прижатия блока */
+}
+
+.search-container {
+  flex: 1 1 auto;
+}
+
+.search__search-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-top: 150px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.search__message {
+  font-size: 30px;
+  text-align: center;
+}
+
+.search__button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-button {
+  padding: 10px;
+}
+
+.search__disable-message {
+  padding: 10px;
+  color: red;
+}

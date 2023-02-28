@@ -1,0 +1,17 @@
+.create-message {
+  display: flex;
+  column-gap: 10px;
+  height: 60px;
+  padding: 10px;
+
+  background-color: lightgray;
+}
+
+.create-message__textarea {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.create-message__button {
+  padding: 0 5px;
+}

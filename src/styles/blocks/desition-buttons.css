@@ -1,0 +1,27 @@
+.desition-buttons {
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+
+  background-color: aqua;
+}
+
+.desition-buttons__button {
+  padding: 10px 20px;
+  border: 0;
+
+}
+
+.desition-buttons__button--no {
+  background-color: red;
+}
+
+.desition-buttons__button--yes {
+  background-color: green;
+}
